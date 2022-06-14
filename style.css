@@ -1,0 +1,30 @@
+﻿h1
+{
+    text-align:center;
+    color:black;
+    background-color:aliceblue;
+}
+#p121
+{
+    color:red;
+    background-color:aquamarine;
+    height:80px;
+}
+#p122
+{
+    color:green;
+    background-color:wheat;
+    height:30px;
+}
+p{
+    text-align:center;
+}
+div{
+    color:green;
+    background-color:honeydew;
+
+}
+.FontFamily
+{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}

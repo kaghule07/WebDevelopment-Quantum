@@ -1,0 +1,83 @@
+﻿/*div
+{
+    background-image:url(banner.jpg);
+    height:200px;
+    width:100%;
+    background-position:top ;
+    background-repeat:repeat;
+    background-size:100%;
+
+}*/
+table{
+    width:100%;
+}
+#banner {
+    position: relative;
+    top: 0;
+    background-image: url(banner.jpg);
+    height: 250px;
+    width: 100%;
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+nav {
+    
+    background-color:aquamarine;
+    height: 59px;
+   /* position: fixed;*/
+    width: 100%;
+    z-index: 2;
+    position:sticky;
+    top: 0;
+}
+ul 
+{
+    display:inline-flex;
+    list-style:none;
+    float:right;
+}
+ul li{
+    padding-right:25px;
+}
+ul li a{
+    text-decoration:none;
+    color:black;
+    font-size:20px;
+}
+img
+{
+    width:100%;
+}
+.content {
+    position: relative;
+    top: 26px;
+}
+
+#p1 {
+    position: absolute;
+    top: 35px;
+    left: 10px;
+}
+
+#p2 {
+    position: absolute;
+    top: 35px;
+    left: 347px;
+}
+
+#p3 {
+    position: absolute;
+    top: 35px;
+    left: 683px;
+}
+#amzimg {
+    top: 160px;
+    position: absolute;
+    bottom: 0;
+    background-image: url(amazon.webp);
+    height: 250px;
+    width: 100%;
+    background-position: bottom;
+    background-repeat: no-repeat;
+}

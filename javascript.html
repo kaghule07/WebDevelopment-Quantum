@@ -7,13 +7,33 @@
 </head>
 <body>
     <div id="11"></div>
+    <div id="12"></div>
     <script>
+        var a = 1;
+        while (a <= 20) {
+            if (a % 2 == 0) {
+                console.log(a)
+            }
+            a++;
+        }
+
+        do {
+            if (a % 2 != 0) {
+                console.log(a)
+            }
+            a++;
+        } while (a <= 20);
+
+        for (var i = 0; i < 10; i++) {
+            console.log(i);
+        }
+
         var n1 = 10;
         var n2 = 123;
         var n3 = n1 + n2;
         console.log(n3);
         if (n2 > n1) {
-            console.log("motha number");
+            console.log(n2);
 
         }
         function addition() {
@@ -23,15 +43,16 @@
         }
         addition();
    
-        
-
-        var nums = [12, 87, 35, 21, 34, 64, 45];
+        var nums = [12, 87, 35, 21, 34, 64, 45,77];
         var names = ["Pranav", "Dhiraj", "Vivek"];
         names.push("Sidram");
-        names.unshift("Gholu");
+        names.unshift("Golu");
 
+        nums.sort();
+        //var nums = nums.slice(2);
+        var nums = nums.slice(1, 5);    
         document.getElementById("11").innerHTML = names;
-        document.getElementById("12").innerHTML = names;
+        document.getElementById("12").innerHTML = nums;
 
     </script>
 </body>
